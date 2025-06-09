@@ -7,5 +7,5 @@ pool:
 steps:
 - task: Maven@3
   inputs:
-    mavenPomFile: 'pom.xml'
-    goals: 'clean package'
+    mavenPomFile: 'maven_app3/pom.xml'
+    goals: 'clean package'
